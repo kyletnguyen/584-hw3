@@ -1,0 +1,58 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: purple;
+  stroke-width: 1.5px;
+}
+
+#start {
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+#reset {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 6px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: dodgerblue;
+  stroke-width: 1.2px;
+}
+
+.area {
+  fill: rgb(59, 143, 97);
+  clip-path: url(#clip);
+}
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+#part1 {
+  padding-top: 5em;
+}
+
+#part2 {
+  padding-top: 5em;
+}
